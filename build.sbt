@@ -13,8 +13,8 @@
  * =========================================================================================
  */
 
-val kamonCore         = "io.kamon"     %%   "kamon-core"        % "1.0.0"
-val kamonTestkit      = "io.kamon"     %%   "kamon-testkit"     % "1.0.0"
+val kamonCore         = "io.kamon"     %%   "kamon-core"        % "1.2.0-87cf9bd2b33f153e3ba070c75f7f496005cac295"
+val kamonTestkit      = "io.kamon"     %%   "kamon-testkit"     % "1.2.0-87cf9bd2b33f153e3ba070c75f7f496005cac295"
 val scalazConcurrent  = "org.scalaz"   %%   "scalaz-concurrent" % "7.2.8"
 
 resolvers in ThisBuild += Resolver.bintrayRepo("kamon-io", "snapshots")
